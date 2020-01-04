@@ -243,6 +243,30 @@ pull=fetch+merge
 	git push --set-upstream origin test
 
 
+远程------》本地
+	1,pull :远程--》追踪分支
+	2,追踪--》本地分支
+		方法一：git checkout -b dev origin/dev
+		方法二：git checkout -b test --track origin/test
+		      git checkout --track origin/test
+
+
+
+删除本地分支：git branch -D test
+删除远程分支：1，通过网页删除
+           2,
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
