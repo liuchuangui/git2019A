@@ -265,6 +265,16 @@ git push orign div:test   把本地div分支推送到远程test分支
 清理无效分支：git remote prune origin
 
 
+git gc:压缩文件
+
+
+git裸库：没有工作区，工作仓库，存在于服务器
+
+
+submodule:子模块
+	在一个仓库中引用另外一个仓库的内容
+
+17-----subree基本使用
 
 
 
