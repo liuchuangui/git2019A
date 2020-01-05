@@ -274,7 +274,40 @@ git裸库：没有工作区，工作仓库，存在于服务器
 submodule:子模块
 	在一个仓库中引用另外一个仓库的内容
 
-17-----subree基本使用
+
+
+rebase：变基（衍合）：改变分支的根基
+	编写代码的地方
+
+B-->A  在B中操作
+git rebase 转移的分支名
+
+rebase会改变提交线路，rebase之后会变成一根线
+
+rebase也有冲突， 
+	a,解决冲突后
+		git add .
+		git rebase --continue
+		git merge 另外一个分支
+	b,忽略冲突（放弃rebase所在分支的修改，直接使用其他分支）
+		git rebase --skip
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
